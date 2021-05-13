@@ -3,5 +3,5 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Post.find_or_create_by(title: 'First post', content: 'Look Mom! My first post!')
+Post.find_or_create_by(title: 'Second post', content: "I'm a senior post writer now.")
